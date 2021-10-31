@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>个人信息表</title>
+<link rel="stylesheet" type="text/css" href="css/form.css">
+</head>
+<body>
+    <div class="from">
+        <img class="bgc" src="image/阿卡丽1.jpg" alt="您的图片无法正常显示">
+        <div class="submit">
+            <span class="form_title">个人信息表</span>
+            <div class="form_input">
+                <span>姓名：</span>
+                <input class="inputs" type="text" value="赵浩飞">
+            </div>
+            <div class="form_input">
+                <span>班级:</span>
+                <input class="inputs" type="text" value="信1801-2">
+            </div>
+            <div class="form_input">
+                <span>学号：</span>
+                <input class="inputs" type="text" value="20183709">
+            </div>
+            <div class="form_input">
+                <span>学院：</span>
+                <input class="inputs" type="text" value="信息科学与技术学院">
+            </div>
+            <div class="form_input">
+                <span>课程名称：</span>
+                <input class="inputs" type="text" value="javaweb">
+            </div><br/>
+            <div class="btn_submit">
+                <a href="index.html" class="back"><button class="home_href">首页</button></a>
+            </div>
+        </div>
+    </div>
+    	<audio autoplay="autoplay" id="audio" loop="loop"><!--音乐就绪后马上播，并且结束后重新开始播放  -->
+                <source src="music/汪苏泷,刘乐瑶 - 岁月神偷.flac" type="audio/FLAC">
+        </audio>
+        <img class="music_img" src="image/刀妹.jpg" alt="您的图片无法正常显示">
+</body>
+<script>
+    let mucics = document.getElementById('audio')
+    document.body.addEventListener('mousemove', function() {
+        setTimeout(() => {
+            mucics.play();
+        }, 2000);   
+    }, false);
+</script>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>关于我</title>
+<link rel="stylesheet" type="text/css" href="css/about.css">
+</head>
+<body>
+    <div class="about">
+        <h3 class="about_tit">要不断的努力，才能成为更好的自己</h3>
+        <img class="about_bgc" src="image/胡列娜.jpg" alt="您的图片无法正常显示">
+        <div class='ribbon'>
+            <a href="index.html"><span>主页</span></a>
+            <a href="about.html"><span>关于我</span></a>
+            <a href="form.html"><span>个人信息表</span></a>
+        </div>
+        <div class="me">
+            <img class="me_img" src="image/木板.jpg" alt="您的图片无法正常显示">
+            <span class="me_tit animate ">我是信1801-2班的赵浩飞，是一名大二的学生。
+                在班级里面任学委一职。曾被评选为三好学生。大一下半年参加“调研河北”比赛获得省二等奖
+                并且暑假期间去天津某工厂打工社会实践。大二上半年获得国家励志奖学金和一等奖学金，参
+                加“创青春”企业计划竞赛并成功初赛晋级，参加校程序设计大赛获得校三等奖并因此入选校算
+                法竞赛队代表学校参加省赛，参加“东软杯”比赛并取得不错的成绩。平常喜欢看书来获取新知
+                识，通过看b站来学习专业知识，喜欢看动漫。同时我也有我自己的迷茫，在大学里不知道自
+                己应该学习的方向是什么，什么东西都学的不够深入。我还计划考研或者保研，通过考研或者
+                保研来让自己跨上更高的台阶来充实自己。当忽然之间脑海里闪现出来一些关于几年前的某个
+                片段时，会情不自禁的回想那个时候的自己，关于那个曾经的所有点点滴滴也渐渐浮现出一些
+                画面，突然拼命的想要去找一点在那个记忆点里的某些东西，寻找的过程中脑海里的思绪早已
+                沉溺在回忆里面，忘了的还有那些忘不了的感触在这一刻全都涌了出来，我觉得最后寻找的结
+                果或许已不重要了，因为这突如其来想要寻找的一些东西的念头，让自己突然变得好安静，莫
+                名的思绪蔓延开来了，它又带我回到了现在已经体会不到的那种怦然心动的时候，仿佛打开了
+                老旧的抽屉，里面装满了当初的成长，青涩，遗憾与那一种想起来会不禁忽然笑出来的感觉，
+                可能想笑的是那时的自己，又或许是笑那带有遗憾结尾的时光，怀念真好。又长大了一岁，
+                生活一如既往的推着自己往前走，在行人眼里穿梭，而不时会回头看看的，还是那个仿佛不知
+                在追逐着什么的自己，此刻的空气很好，它不会留下痕迹。
+            </span>
+        </div>
+        <audio autoplay="autoplay" id="audio" loop="loop"><!--音乐就绪后马上播，并且结束后重新开始播放  -->
+                <source src="music/迎着风-蓝波-22811539.aac" type="audio/AAC">
+        </audio>
+        <img class="music_img" src="image/梦想.jpg" alt="您的图片无法正常显示">
+</body>
+<script>
+    let mucics = document.getElementById('audio')
+    document.body.addEventListener('mousemove', function() {
+        setTimeout(() => {
+            mucics.play();
+        }, 2000);   
+    }, false);
+</script>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>我的个人主页</title>
+<link rel="stylesheet" type="text/css" href="css/home.css">
+</head>
+<body>
+    <div class="home">
+        <div class="content">
+            <div class="stars"></div>
+            <img class="bgc" src="image/胡列娜那.jpg" width="100%" alt="您的图片无法正常显示">
+            <h3 class="title">欢迎来到我的个人主页</h3>
+            <h3 class="titles">今天也要努力鸭</h3>
+            <img class="icon" src="image/二次元少女.jpg" alt="您的图片无法正常显示">
+            <div class='ribbon'>
+                <a href='index.html'><span>主页</span></a>
+                <a href='about.html'><span>关于我</span></a>
+                <a href='form.html'><span>个人信息表</span></a>
+            </div>
+        </div>
+        <div class="icons">
+            <div class="icons_items">
+                <img class="icons_items_imgs" src="image/唯美秋景.jpg" alt="您的图片无法正常显示"><br/>
+                <span>美好的景色总会使人忘记一切烦恼</span>
+            </div>
+            <div class="icons_items">
+                <img class="icons_items_imgs" src="image/梦想.jpg" alt="您的图片无法正常显示"><br/>
+                <span>人贵有梦，要成为是一个有梦想的人</span>
+            </div>
+            <div class="icons_items">
+                <img class="icons_items_imgs" src="image/爱爱爱.jpg" alt="您的图片无法正常显示">
+                <span>美好的爱情总会不期而遇 </span>
+            </div>
+            <div class="icons_items">
+                <img class="icons_items_imgs" src="image/唯美雪景.jpg" alt="您的图片无法正常显示">
+                <span>雪中小房，最美的童话</span>
+            </div>
+        </div>     
+        <audio autoplay="autoplay" id="audio" loop="loop"><!--音乐就绪后马上播，并且结束后重新开始播放  -->
+                <source src="music/Taylor Swift - Blank Space.mp3" type="audio/MP3">
+        </audio>
+        <img class="music_img" src="image/泰勒.jpg" alt="音乐就绪后马上播，并且结束后重新开始播放">
+    </div>
+</body>
+<script>
+    let mucics = document.getElementById('audio')
+    document.body.addEventListener('mousemove', function() {
+        setTimeout(() => {
+            mucics.play();
+        }, 2000);   
+    }, false);
+</script>
+</html>
